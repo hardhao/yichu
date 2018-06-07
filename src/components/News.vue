@@ -84,7 +84,7 @@ export default {
 header{
     background-image: url('../assets/u48.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
     padding-top: 20px;
     padding-bottom: 20px;
     flex-grow: 0;

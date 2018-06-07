@@ -43,13 +43,13 @@ export default {
 header{
     background-image: url('../assets/u48.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
     padding-top: 20px;
+    flex-shrink: 0;
     padding-bottom: 13px;
     flex-grow: 0;
     display: flex;
     justify-content: space-around;
-    flex-shrink: 0;
 }
 header>a{
     color: #000;
