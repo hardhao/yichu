@@ -39,10 +39,13 @@ export default {
 .mint-swipe-item>img{
   width:100%;
 }
+.mint-swipe-item{
+  position: relative;
+}
 .mint-swipe-item>a{
-    position: fixed;
+    position: absolute;
     left:36%;
-    top:72%;
+    bottom:22%;
     width: 118px;
     height: 45px;
     background-color: #000;
