@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Denglu from '@/components/Denglu'
 import Shouye from '@/components/Shouye'
-import Search from '@/components/Search'
 import News from '@/components/News'
 
 Vue.use(Router)

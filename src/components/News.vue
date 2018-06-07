@@ -43,21 +43,18 @@
                     </div>
                 </div>  
             </div>
-            
+            <div class="sec-bottom"></div>
         </section>
-        <footer>
-            <router-link to="/shouye" class="same-img one" active-class='oneActive'></router-link>
-            <router-link to="/news" class="same-img two" active-class='twoActive'></router-link>
-            <router-link to="/shouye" class="same-img thr" active-class='thrActive'></router-link>
-            <router-link to="/shouye" class="same-img fou" active-class='fouActive'></router-link>
-            <router-link to="/shouye" class="same-img fiv" active-class='fivActive'></router-link>
-        </footer>
+        <Footer />
     </div>
 </template>
-
 <script>
+import Footer from './Footer'
 export default {
     name:'news',
+    components:{
+        Footer
+    },
     computed:{
         comments(){
             console.log(this.$store.state.comment.dongtai)
@@ -90,7 +87,7 @@ section{
     overflow: scroll;
 }
 .box{
-    border-bottom: 5px solid #ccc;
+    border-bottom: 5px solid rgb(236, 232, 232);
     padding-bottom: 30px;
 }
 .set-t{
@@ -112,7 +109,7 @@ section{
 }
 .sec-m>div:nth-child(1)>span{
     color: #9e9e9e;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 }
 .sec-m>div:nth-child(1)>span:nth-child(2){
@@ -135,10 +132,11 @@ section{
 .sec-m-p-l>span{
     margin-left: 25%;
     margin-top: 10px;
+    font-size: 12px;
 }
 .sec-m-p-l>span:nth-child(3){
     margin-top: 0;
-    margin-left:20%;
+    margin-left:21%;
     color: #9e9e9e;
 }
 .pic{
@@ -165,56 +163,22 @@ section{
     display: block;
 }
 .word>span:nth-child(1){
-    font-size: 20px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .word>span:nth-child(2){
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(182, 179, 179);
 }
 .word>span:nth-child(3){
     margin-top: 25px;
-    font-size: 14px;
+    font-size: 12px;
     color: #ccc;
 }
 .word>span:nth-child(4){
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(155, 154, 154);
 }
-footer{
-    flex-grow: 0;
-    height: 66px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.same-img{
-    width: 39px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-.one{
-    background-image: url('../assets/首页_u39.png');
-}
-.oneActive{
-    background-image: url('../assets/首页_u39_disabled.png');
-}
-.two{
-    background-image: url('../assets/消息_u45.png');
-}
-.twoActive{
-    background-image: url('../assets/消息_u45_disabled.png');
-}
-.thr{
-    background-image: url('../assets/新建_u37.png');
-}
-.fou{
-    background-image: url('../assets/话题_u41.png');
-}
-.fiv{
-    background-image: url('../assets/我的_u43.png');
-}
+
 </style>
