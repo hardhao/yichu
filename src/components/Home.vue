@@ -2,10 +2,10 @@
   <div class="wrap">
     <div>
       <mt-swipe @change="handleChange" auto='0' :show-indicators="false">
-        <mt-swipe-item><img src="../assets/u5.png" alt=""></mt-swipe-item>
-        <mt-swipe-item><img src="../assets/u7.png" alt=""></mt-swipe-item>
-        <mt-swipe-item><img src="../assets/u9.png" alt=""></mt-swipe-item>
-        <mt-swipe-item><img src="../assets/u11.png" alt=""><router-link to="denglu"><span></span></router-link></mt-swipe-item>
+        <mt-swipe-item><img src="../assets/u5.jpg" alt=""></mt-swipe-item>
+        <mt-swipe-item><img src="../assets/u7.jpg" alt=""></mt-swipe-item>
+        <mt-swipe-item><img src="../assets/u9.jpg" alt=""></mt-swipe-item>
+        <mt-swipe-item><img src="../assets/u11.jpg" alt=""><router-link to="denglu"><span></span></router-link></mt-swipe-item>
       </mt-swipe>
     </div>
   </div>
@@ -41,10 +41,11 @@ export default {
 }
 .mint-swipe-item>a{
     position: fixed;
-    left: 132px;
-    top:68%;
+    left:36%;
+    top:72%;
     width: 118px;
     height: 45px;
+    background-color: #000;
 }
 .mint-swipe-item>a>span{
   display: block;

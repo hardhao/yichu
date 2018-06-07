@@ -119,18 +119,21 @@ section img{
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding-left: 3%;
 }
 .mid-t>div:nth-child(1){
     margin-top: 10px;
     color: cyan;
+    font-size: 12px;
 }
 .mid-t>div:nth-child(2)>img{
-    width: 40px;
+    width:30px;
 }
 .mid-t>div:nth-child(2)>span{
     position: absolute;
-    right: 45px;
+    right: 35px;
     top:10px;
+    font-size: 12px;
 }
 .left{
     display: flex;
@@ -147,13 +150,16 @@ section img{
     width: 50%;
 }
 .mid-l{
-    margin-left: 10px;
+    margin-left:3%;
 }
 .mid-l>span:nth-child(1){
     display: block;
-    font-size: 22px;
+    font-size: 16px;
     width: 100%;
     margin-bottom: 10px;
+}
+.mid-l>span:nth-child(2){
+    font-size: 12px;
 }
 footer{
     flex-grow: 0;
