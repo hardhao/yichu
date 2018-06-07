@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Denglu from '@/components/Denglu'
 import Shouye from '@/components/Shouye'
 import News from '@/components/News'
+import Chat from '@/components/Chat'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
         {
             path: '/news',
             component: News,
+        },
+        {
+            path: '/chat',
+            component: Chat,
         }
     ]
 })

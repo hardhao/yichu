@@ -1,8 +1,8 @@
 <template>
     <div class="wrap">
         <header>
-            <span>动态 DYNAMC</span>
-            <span>聊天 CHAT</span>
+            <router-link active-class='h-oneActive' to='/news'>动态 DYNAMC</router-link>
+            <router-link active-class='h-twoActive' to='/chat'>聊天 CHAT</router-link>
         </header>
         <section>
             <div class="box">
@@ -12,7 +12,7 @@
                         <div class="pic">
                             <img src="../assets/1984766224.jpg" alt="">
                             <span></span>
-                            <div class="word" v-for="comment in comments" :key='comment.id'>
+                            <div class="word">
                                 <span>
                                     {{comment.title}}
                                 </span>
@@ -43,7 +43,19 @@
                     </div>
                 </div>  
             </div>
-            <div class="sec-bottom"></div>
+            <div class="sec-bottom">
+                <div class="sec-b-t">
+                    <div class="sec-b-t-l">
+                        <div>
+                            <img src="../assets/558116531.jpg" alt="">
+                            <span>不安海水</span>
+                        </div>
+                        <span>SALESDE的语言艺术</span>
+                    </div>
+                    <img src="../assets/消息-动态111_03.png" alt="">
+                </div>
+                <p>{{comment.text}}</p>
+            </div>
         </section>
         <Footer />
     </div>
@@ -56,9 +68,9 @@ export default {
         Footer
     },
     computed:{
-        comments(){
+        comment(){
             console.log(this.$store.state.comment.dongtai)
-            return this.$store.state.comment.dongtai
+            return this.$store.state.comment.dongtai[0]
         }
     }
 }
@@ -71,16 +83,25 @@ export default {
 }
 header{
     background-image: url('../assets/u48.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     flex-grow: 0;
     display: flex;
     justify-content: space-around;
 }
-header>span{
+header>a{
+    color: #000;
     width: 50px;
     text-align: center;
     font-size: 12px;
+}
+.h-oneActive{
+    color: #fff;
+}
+.h-twoActive{
+    color: #fff;
 }
 section{
     flex-grow: 1;
@@ -180,5 +201,38 @@ section{
     font-size: 12px;
     color: rgb(155, 154, 154);
 }
-
+.sec-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 5%;
+}
+.sec-b-t{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-b-t>img{
+    width:8%;
+    height:8%;
+    margin-right: 8%;
+}
+.sec-b-t-l{
+    display: flex;
+    flex-direction: column;
+}
+.sec-b-t-l>span{
+    font-size: 14px;
+}
+.sec-b-t-l>div>img{
+    width: 15%;
+}
+.sec-b-t-l>div>span{
+    font-size: 12px;
+    margin-left: 5px;
+    color: rgb(165, 165, 165);
+}
+.sec-bottom>p{
+    font-size: 12px;
+    color: rgb(167, 164, 163);
+}
 </style>
