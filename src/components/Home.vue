@@ -1,7 +1,7 @@
 <template>
   <div class="wrap">
     <div>
-      <mt-swipe @change="handleChange" auto='0' :show-indicators="false">
+      <mt-swipe @change="handleChange" :auto="0" :show-indicators="false">
         <mt-swipe-item><img src="../assets/u5.jpg" alt=""></mt-swipe-item>
         <mt-swipe-item><img src="../assets/u7.jpg" alt=""></mt-swipe-item>
         <mt-swipe-item><img src="../assets/u9.jpg" alt=""></mt-swipe-item>
@@ -47,7 +47,7 @@ export default {
     left:36%;
     bottom:14%;
     width: 118px;
-    height: 45px;
+    height: 90px;
     background-color: #000;
 }
 .mint-swipe-item>a>span{

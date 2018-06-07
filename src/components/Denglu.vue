@@ -29,9 +29,9 @@ img{
 .singIn{
     position: absolute;
     left:23%;
-    top: 60%;
+    top:55%;
     width: 55%;
-    height: 43px;
+    height:80px;
     background-color: #000;
 }
 </style>
