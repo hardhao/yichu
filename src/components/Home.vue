@@ -45,7 +45,7 @@ export default {
 .mint-swipe-item>a{
     position: absolute;
     left:36%;
-    bottom:22%;
+    bottom:17%;
     width: 118px;
     height: 45px;
     background-color: #000;
