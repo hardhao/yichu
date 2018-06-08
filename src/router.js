@@ -8,6 +8,7 @@ import Chat from '@/components/Chat'
 import Topic from '@/components/Topic'
 import CircleDesk from '@/components/CircleDesk'
 import Myself from '@/components/Myself'
+import Music from '@/components/Music'
 
 Vue.use(Router)
 
@@ -45,6 +46,10 @@ export default new Router({
         {
             path: '/myself',
             component: Myself,
+        },
+        {
+            path: '/music',
+            component: Music,
         }
     ]
 })

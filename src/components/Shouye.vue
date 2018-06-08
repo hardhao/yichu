@@ -7,11 +7,11 @@
         <section>
             <img src="../assets/192284667.jpg" alt="">
             <div class="sec-top">
-                <img src="../assets/音乐.png" alt="">
-                <img src="../assets/播放.png" alt="">
-                <img src="../assets/清单.png" alt="">
-                <img src="../assets/收音机.png" alt="">
-                <img src="../assets/排行榜.png" alt="">
+                <router-link to='./music'><img src="../assets/音乐.png" alt=""></router-link>
+                <router-link to='./shouye'><img src="../assets/播放.png" alt=""></router-link>
+                <router-link to='./shouye'><img src="../assets/清单.png" alt=""></router-link>
+                <router-link to='./shouye'><img src="../assets/收音机.png" alt=""></router-link>
+                <router-link to='./shouye'><img src="../assets/排行榜.png" alt=""></router-link>
             </div>
             <div class="mid">
                 <div class="mid-same" v-for="comment in comments " :key="comment.id">
@@ -96,9 +96,13 @@ export default {
     border-radius: 3px;
     margin-bottom: 10px;
 }
-.wrap .sec-top>img{
+.wrap .sec-top>a{
     width: 8%;
     height: 50%;
+}
+.wrap .sec-top>a>img{
+    width: 100%;
+    height: 100%;
 }
 .mid-same{
     display: flex;
