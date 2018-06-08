@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-div{
+.wrap{
     position: relative;
 }
 img{

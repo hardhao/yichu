@@ -60,6 +60,96 @@ const state = {
             text: '哎呦可以哦',
             src:'http://i4.bvimg.com/648795/e42ae561ed1280d8.png'
         }
+    ],
+    topic:[
+        {
+            id:'1',
+            name:'不安海水安于咸',
+            title:'没有上进心我错了吗?',
+            text:'我要自己选择我这一生怎么爱，更要选择这一生怎么活，一个文明社会就是允许任何人用任何方式活着',
+            src:'http://i4.bvimg.com/648795/1cc6fd30542e2795.jpg'
+        },
+        {
+            id: '2',
+            name: 'dsdfasdf',
+            title: '找对象该不该差不多得了?',
+            text: '运气是要转的，你一直等着幸福来敲门，好八十年，幸福不来敲门，是不是你家住的太偏远了',
+            src: 'http://i4.bvimg.com/648795/44337fb3d911df0e.jpg'
+        }
+    ],
+    circleDesk:[
+        {
+            id:'1',
+            title:'还有比普通朋友更伤人的么',
+            body:'还有1周结束',
+            src:'http://i4.bvimg.com/648795/1cc6fd30542e2795.jpg'
+        },
+        {
+            id: '2',
+            title: '你已经做的足够好',
+            body: '还有9小时结束',
+            src: 'http://i4.bvimg.com/648795/e42ae561ed1280d8.png'
+        },
+        {
+            id: '3',
+            title: '稳住我们能赢',
+            body: '330.6k 次浏览，11.7k人关注',
+            src: 'http://i4.bvimg.com/648795/e42ae561ed1280d8.png'
+        },
+        {
+            id: '4',
+            title: '不想上班的理由',
+            body: '1.4m 次浏览，11.7k人关注',
+            src: 'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
+        },
+        {
+            id: '5',
+            title: '听说大家都考完了',
+            body: '1.4m 次浏览，11.7k人关注',
+            src: 'http://i4.bvimg.com/648795/1cc6fd30542e2795.jpg'
+        },
+        {
+            id: '6',
+            title: '你是不是膨胀了',
+            body: '1.4m 次浏览，11.7k人关注',
+            src: 'http://i4.bvimg.com/648795/04fe12a36a6edc17.png'
+        },
+        {
+            id: '7',
+            title: '注册会计师之路',
+            body: '1.4m 次浏览，11.7k人关注',
+            src: 'http://i4.bvimg.com/648795/1cc6fd30542e2795.jpg'
+        }
+    ],
+    Myself:[
+        {
+            id:'1',
+            title:'收藏',
+            text:'文章 歌曲 精彩回答都在这里了',
+            num:'32',
+            src:'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
+        },
+        {
+            id: '2',
+            title: '回信',
+            text: '你的回答',
+            num: '7个',
+            src:'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
+        },
+        {
+            id: '3',
+            title: '提问',
+            text: '你的提问',
+            num: '6个',
+            src:'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
+        },
+        {
+            id: '4',
+            title: '钱包',
+            text: '邀请好友来拿钱',
+            num: '50.00',
+            src:'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
+        }
     ]
 }
 

@@ -4,8 +4,8 @@
             <router-link to="/shouye" class="same-img one" active-class='oneActive'></router-link>
             <router-link to="/news" class="same-img two" active-class='twoActive'></router-link>
             <router-link to="/shouye" class="same-img thr" active-class='thrActive'></router-link>
-            <router-link to="/shouye" class="same-img fou" active-class='fouActive'></router-link>
-            <router-link to="/shouye" class="same-img fiv" active-class='fivActive'></router-link>
+            <router-link to="/topic" class="same-img fou" active-class='fouActive'></router-link>
+            <router-link to="/myself" class="same-img fiv" active-class='fivActive'></router-link>
         </footer>
     </div>
 </template>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-footer{
+.wrap footer{
     flex-grow: 0;
     height: 66px;
     display:flex;
@@ -48,6 +48,9 @@ footer{
 }
 .fou{
     background-image: url('../assets/话题_u41.png');
+}
+.fouActive{
+    background-image: url('../assets/话题_u41_disabled.png');
 }
 .fiv{
     background-image: url('../assets/我的_u43.png');

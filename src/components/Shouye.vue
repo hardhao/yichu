@@ -3,7 +3,6 @@
         <header>
             <img src="../assets/u48.png" alt="">
             <img src="../assets/u50.png" alt="">
-            <div class="find"></div>
         </header>
         <section>
             <img src="../assets/192284667.jpg" alt="">
@@ -64,32 +63,25 @@ export default {
     display:flex;
     flex-direction: column;
 }
-header{
+.wrap header{
     position: relative;
-    height: 66px;
-    flex-grow:0;
 }
-header img{
+.wrap header img{
     width: 100%;
-    position: absolute;
+    display: block;
 }
-header img:nth-child(2){
+.wrap header img:nth-child(2){
     position: absolute;
     width: 90%;
     left:7%;
-    bottom:10px;
+    top:50%;
+    margin-top: -10px;
 }
-.find{
-    position: absolute;
-    right:0;
-    height: 66px;
-    width: 52px;
-}
-section{
+.wrap section{
     flex-grow: 1;
     overflow: scroll;
 }
-section img{
+.wrap section img{
     width: 100%;
 }
 .sec-top{
@@ -104,7 +96,7 @@ section img{
     border-radius: 3px;
     margin-bottom: 10px;
 }
-.sec-top>img{
+.wrap .sec-top>img{
     width: 8%;
     height: 50%;
 }
@@ -138,7 +130,7 @@ section img{
     margin-top: 10px;
     justify-content: space-between;
 }
-.left>img{
+.wrap .left>img{
     width: 40%;
     height: 20%;
     margin-top: 15px;

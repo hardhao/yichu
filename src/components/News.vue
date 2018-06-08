@@ -81,7 +81,7 @@ export default {
     display: flex;
     flex-direction: column;
 }
-header{
+.wrap header{
     background-image: url('../assets/u48.png');
     background-repeat: no-repeat;
     background-size:cover;
@@ -91,19 +91,19 @@ header{
     display: flex;
     justify-content: space-around;
 }
-header>a{
+.wrap header>a{
     color: #000;
     width: 50px;
     text-align: center;
     font-size: 12px;
 }
-.h-oneActive{
+.wrap .h-oneActive{
     color: #fff;
 }
-.h-twoActive{
+.wrap .h-twoActive{
     color: #fff;
 }
-section{
+.wrap section{
     flex-grow: 1;
     overflow: scroll;
 }
@@ -221,7 +221,7 @@ section{
     flex-direction: column;
 }
 .sec-b-t-l>span{
-    font-size: 14px;
+    font-size: 12px;
 }
 .sec-b-t-l>div>img{
     width: 15%;
