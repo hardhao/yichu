@@ -150,6 +150,36 @@ const state = {
             num: '50.00',
             src:'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
         }
+    ],
+    message:[
+        {
+            id:'1',
+            name:'万能的尤老师',
+            text:'如果朋友经常给你带来负面的情绪，你该怎么办?',
+            num:'384',
+            src:'http://i4.bvimg.com/648795/dde42e81edef51c5.png'
+        },
+        {
+            id: '2',
+            name: '解说哈哈',
+            text: '什么歌陪你度过低落的时期，说说你当时的故事',
+            num: '654',
+            src:'http://i4.bvimg.com/648795/e42ae561ed1280d8.png'
+        },
+        {
+            id: '3',
+            name: '曲掰掰',
+            text: '学生时代，那句话让你蜜汁向往',
+            num: '128',
+            src:'http://i4.bvimg.com/648795/1cc6fd30542e2795.jpg'
+        },
+        {
+            id: '4',
+            name: '罗胜军',
+            text: '解压最好的方式，我需要!!',
+            num: '367',
+            src:'http://i4.bvimg.com/648795/04fe12a36a6edc17.png'
+        }
     ]
 }
 

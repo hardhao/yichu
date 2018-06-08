@@ -11,7 +11,7 @@
                 <router-link to='./shouye'><img src="../assets/播放.png" alt=""></router-link>
                 <router-link to='./shouye'><img src="../assets/清单.png" alt=""></router-link>
                 <router-link to='./shouye'><img src="../assets/收音机.png" alt=""></router-link>
-                <router-link to='./shouye'><img src="../assets/排行榜.png" alt=""></router-link>
+                <router-link to='./message'><img src="../assets/排行榜.png" alt=""></router-link>
             </div>
             <div class="mid">
                 <div class="mid-same" v-for="comment in comments " :key="comment.id">

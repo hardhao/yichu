@@ -9,6 +9,8 @@ import Topic from '@/components/Topic'
 import CircleDesk from '@/components/CircleDesk'
 import Myself from '@/components/Myself'
 import Music from '@/components/Music'
+import Message from '@/components/Message'
+import MessageHour from '@/components/MessageHour'
 
 Vue.use(Router)
 
@@ -50,6 +52,14 @@ export default new Router({
         {
             path: '/music',
             component: Music,
+        },
+        {
+            path: '/message',
+            component: Message,
+        },
+        {
+            path: '/messagehour',
+            component: MessageHour,
         }
     ]
 })
