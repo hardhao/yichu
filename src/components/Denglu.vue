@@ -32,6 +32,5 @@ img{
     top:55%;
     width: 55%;
     height:80px;
-    background-color: #000;
 }
 </style>

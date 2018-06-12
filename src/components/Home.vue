@@ -48,7 +48,6 @@ export default {
     bottom:14%;
     width: 118px;
     height: 90px;
-    background-color: #000;
 }
 .mint-swipe-item>a>span{
   display: block;

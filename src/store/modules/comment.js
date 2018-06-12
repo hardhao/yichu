@@ -12,7 +12,8 @@ const state = {
             title: '我更喜欢努力的自己',
             body: '你知道，故事的结尾并不重要，生活唯一确保我们的旧光芒。',
             left:'浮世绘',
-            right:'一处精选'
+            right:'一处精选',
+            src:'http://i1.bvimg.com/648795/2e0b238ef6ca2951.jpg'
         },
     ],
     dongtai:[
@@ -179,6 +180,20 @@ const state = {
             text: '解压最好的方式，我需要!!',
             num: '367',
             src:'http://i4.bvimg.com/648795/04fe12a36a6edc17.png'
+        }
+    ],
+    article:[
+        {
+            id:'1',
+            title:'人生的选择你都会后悔',
+            text:'by:马茉莉和苏晓盒',
+            src:'http://i1.bvimg.com/648795/df6caaff3b91da0a.jpg'
+        },
+        {
+            id:'2',
+            title:'世界越来越小，有人听你说话就好',
+            text:'by:当今世界',
+            src:'http://i1.bvimg.com/648795/7d3f97862c3fe153.jpg'
         }
     ]
 }

@@ -11,6 +11,8 @@ import Myself from '@/components/Myself'
 import Music from '@/components/Music'
 import Message from '@/components/Message'
 import MessageHour from '@/components/MessageHour'
+import SecondShouye from '@/components/SecondShouye'
+import Article from '@/components/Article'
 
 Vue.use(Router)
 
@@ -60,6 +62,14 @@ export default new Router({
         {
             path: '/messagehour',
             component: MessageHour,
+        },
+        {
+            path:'/shouye/:id',
+            component:SecondShouye
+        },
+        {
+            path: '/article',
+            component: Article
         }
     ]
 })

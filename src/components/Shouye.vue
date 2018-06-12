@@ -9,7 +9,7 @@
             <div class="sec-top">
                 <router-link to='./music'><img src="../assets/音乐.png" alt=""></router-link>
                 <router-link to='./shouye'><img src="../assets/播放.png" alt=""></router-link>
-                <router-link to='./shouye'><img src="../assets/清单.png" alt=""></router-link>
+                <router-link to='./Article'><img src="../assets/清单.png" alt=""></router-link>
                 <router-link to='./shouye'><img src="../assets/收音机.png" alt=""></router-link>
                 <router-link to='./message'><img src="../assets/排行榜.png" alt=""></router-link>
             </div>
@@ -22,7 +22,7 @@
                     <div class="left">
                         <div class="mid-l">
                             <span>{{comment.title}}</span>
-                            <span>{{comment.body}}</span>
+                            <router-link :to='`./shouye/${comment.id}`'>{{comment.body}}</router-link>
                         </div>
                         <img :src="pic[comment.id-1]" alt="">
                     </div>
@@ -152,7 +152,8 @@ export default {
     width: 100%;
     margin-bottom: 10px;
 }
-.mid-l>span:nth-child(2){
+.mid-l>a{
     font-size: 12px;
+    color: #000;
 }
 </style>
